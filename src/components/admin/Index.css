@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+/* main dashboard */
+.mainDashboard{
+    background: #F1F0FA;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.mainDashboard .dashboardRow{
+    max-width: 1920px;
+    height: 100%;
+    margin: 0px;
+    margin: auto;
+    background: #F1F0FA;
+}
+.mainDashboard .dashboardRow .dashboardCol{
+    margin: 0px;
+    background: #F1F0FA;
+    padding: 0px;
+    height: 100%;
+    min-height: 100vh;
+}
+.mainDashboard .dashboardRow .containerOne{
+    background: #fff;
+    margin-left: 0px;
+    height: 100%;
+    min-height: 100vh;
+}
+.mainDashboard .dashboardRow .containerOne .profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainDashboard .dashboardRow .containerOne .profile .profileInfo{
+    display: flex;
+    align-items: center;
+}
+.mainDashboard .dashboardRow .containerOne .profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 20px;
+    margin-right: 10px;
+}
+.mainDashboard .dashboardRow .containerOne .profile .profileAbout{
+    margin: 0px;
+    align-items: center;
+    padding: 0px;
+}
+.mainDashboard .dashboardRow .containerOne .profile h3{
+    font-size: 18px;
+    color: #111D5E;
+    margin: 0px;
+}
+.mainDashboard .dashboardRow .containerOne .profile h6{
+    color: #3A537860;
+    font-size: 14px;
+    margin-top: 2px;
+}
+.mainDashboard .dashboardRow .adminSections .tabs{
+    display: flex;
+    align-items: center;
+    height: 51px;
+    color: #00000060;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 30px;
+    text-align: left;
+    cursor: pointer;
+}
+.mainDashboard .dashboardRow .adminSections .tabs.active{
+    color: #111D5E;
+    border-left: 5px solid #111D5E;
+}
+.mainDashboard .dashboardRow .adminSections .tabs .link{
+    display: flex;
+}
+.mainDashboard .dashboardRow .adminSections .tabs h2{
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 13px;
+}
+.mainDashboard .dashboardRow .adminNotification{
+    margin-right: 25px;
+    font-size: 30px;
+    color: #111D5E;
+}
+.mainDashboard .dashboardRow .containerOne hr{
+    width: 280px;
+}
+
+.mainDashboard .dashboardRow .logout{
+    display: flex;
+    margin-top: 220px;
+    color: #FF0000;
+    margin-left: 30px;
+    align-items: center;
+}
+.mainDashboard .dashboardRow .logout h2{
+    margin: 0px;
+    margin-left: 16px;
+    font-size: 18px;
+    padding: 0px;
+}
+
+
+/* Dashboard */
+.dashboard{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    height: 100vh;
+}
+.dashboard .activityRow{
+    margin: 0px;
+    padding: 0px 10px;
+}
+.dashboard .activityRow .activityCol{
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+}
+.dashboard .activityRow .activityCol .activityInfo{
+    margin: 20px 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    background: #fff;
+    height: 267px;
+    align-items: center;
+}
+.dashboard .activityRow .activityCol .activityInfo h2{
+    font-size: 18px;
+    color: #111D5E;
+    margin: 0px;
+    padding-top: 31px;
+    font-weight: bold;
+}
+.dashboard .activityRow .activityCol .activityInfo h1{
+    font-size: 80px;
+    color: #A6B1C2;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+.dashboard .activityRow .activityCol .activityInfo button{
+    height: 50px;
+    width: 200px;
+    color: #fff;
+    background: #F37121;
+    border-width: 0px;
+    border-radius: 3px;
+    font-size: 15px;
+    outline: none;
+}
+
+/* post history */
+.allPostHistory{
+    margin: 20px;
+    background: #fff;
+    padding: 20px;
+    height: 100%;
+    height: 94vh;
+    overflow-y: scroll;
+}
+.allPostHistory .title{
+    font-size: 15px;
+    font-weight: bold;
+    color: #111D5E80;
+    margin-bottom: 15px;
+}
+.allPostHistory .historyTitle .history{
+    color: #a8b5c7;
+    font-size: 14px;
+}
+.allPostHistory .historyTitle .history h4{
+    color: #a8b5c7;
+    font-weight: 400;
+    font-size: 14px;
+}
+.allPostHistory .historyTitle .history h6{
+    color: #a8b5c7;
+    cursor: text;
+}
+.history{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.history h5, .history h6, .history p{
+    font-size: 14px;
+    margin: 0px;
+}
+.history h5, .history p{
+    width: 120px;
+    font-weight: 450;
+}
+.history h4{
+    font-size: 15px;
+    width: 350px;
+    height: 15px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #111D5E;
+}
+.history h6{
+    color: #004CFF;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+/* Create Post Section */
+.addPost{
+    margin: 0px;
+    padding: 20px;
+    height: 100vh;
+}
+.addPost .postForm{
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    height: 100%;
+}
+
+.addPost .postForm input, .addPost .postForm textarea{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 12px;
+    outline: none;
+    background: #ABA7D510;
+    border-width: 0px;
+    border: 1px solid #111D5E20;
+}
+.addPost .postForm input::placeholder, .addPost .postForm textarea::placeholder{
+    color: #0d13366c;
+    font-size: 14px;
+}
+.addPost .postForm textarea{
+    height: 375px;
+    margin-bottom: 0px;
+}
+.addPost .postForm .formRow .button{
+    margin: auto;
+    height: 48px;
+    width: 200px;
+    background: #F37121;
+    border-width: 0px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20px;
+    outline: none;
+}

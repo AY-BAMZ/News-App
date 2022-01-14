@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+.header{
+    background-color: #111D5E;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 23;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1088px;
+    margin: auto;
+    align-items: center;
+}
+
+.header .navbar .navLinks{
+    display: flex;
+    margin-top: -10px;
+    padding: 0px;
+}
+.header .navbar .navLinks ul{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    margin: auto;
+    padding: 0px;
+}
+.header .navbar .navLinks ul li{
+    color: #fff;
+    margin: 25px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.header .navbar .navLinks ul li:hover{
+    color: #8396ffb2;
+}
+.header .mobileNav{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .header .navbar .navLinks{
+        display: none;
+    }
+    .header .navbar .searchComponent{
+        display: none;
+    }
+    .header .navbar img{
+        margin: 18px 10px;
+    }
+    .mobileSearchBar{
+        color: #fff;
+    }
+    .header .mobileNav{
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+/* footer section */
+
+.footer{
+    margin: 0;
+    padding: 0;
+}
+.footer .containerOne{
+    margin: auto;
+    background: #131f6408;
+}
+.footer .containerOne .footerRowOne{
+    max-width: 1103px;
+    padding: 15px;
+    margin: auto;
+    text-align: left;
+}
+.footer .containerOne .footerRowOne .footerColOne{
+    margin: 52px 0;
+    padding: 0;
+}
+.footer .containerOne .footerRowOne h5{
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Montserrat', sans-serif;
+}
+.footer .containerOne .footerRowOne p{
+    font-size: 14px;
+    color: #26262640;
+    max-width: 330px;
+    margin: 20px 0;
+}
+.footer .containerOne .footerRowOne input{
+    width: 210px;
+    height: 40px;
+    border: 1px solid rgba(119, 119, 119, 0.507);
+    border-radius: 4px;
+    background: none;
+    margin-right: 15px;
+    padding: 10px;
+    outline: none;
+}
+.footer .containerOne .footerRowOne input::placeholder{
+    font-size: 14px;
+    color: #A2A2A2;
+}
+.footer .containerOne .footerRowOne button{
+    height: 40px;
+    width: 120px;
+    background: #F37121;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    border-width: 0px;
+}
+.footer .containerOne .footerRowOne button:focus{
+    outline: none;
+}
+.footer .containerOne .footerRowOne ul{
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+.footer .containerOne .footerRowOne ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #26262640;
+    cursor: pointer;
+}
+.footer .containerOne .footerRowOne ul li:hover{
+    color: #111D5E;
+}
+.footer .containerTwo{
+    background: #111D5E;
+    margin: 0px;
+    padding: 0px;
+}
+.footer .containerTwo .subContainer{
+    max-width: 1103px;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    margin: auto;
+    align-items: center;
+}
+.footer .containerTwo .subContainer h6{
+    color: #fff;
+    padding: 20px;
+    margin: 0px;
+}
+.footer .containerTwo .subContainer .socialIcon{
+    color: #fff;
+    margin: 10px;
+    font-size: 20px;
+}
+@media only screen and (max-width: 600px){
+    .footer .containerOne .footerRowOne{
+        text-align: center;
+    }
+}
+
+/* post slider */
+.postSlider{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+.postSlider img{
+    height: 100%;
+    width: auto;
+}
+@media only screen and (max-width: 768px){
+    .postSlider img{
+        height: 100%;
+        width: auto;
+        margin: auto;
+    }
+}
+/* allpost section */
+.allPost{
+    margin: 15px;
+    width: 100%;
+    max-width: 320px;
+    text-align: left;
+    height: fit-content;
+}
+.allPost img{
+    width: 100%;
+    height: auto;
+}
+.allPostListRow{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1088px;
+    margin: auto;
+    height: fit-content;
+}
+.allPost .info{
+    display: flex;
+}
+.allPost .info p{
+    padding-right: 30px;
+    font-size: 13px;
+    color: #3D3D3D60;
+    /* border-right: 1px solid rgba(20, 13, 13, 0.221); */
+    margin-top: 16px;
+}
+.allPost h2{
+    font-size: 24px;
+    color: #3D3D3D;
+}
+.allPost h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: #737373;
+}
+.allPostListRow button{
+    background: #F37121;
+    color: white;
+    font-weight: bold;
+    border-width: 0px;
+    width: 200px;
+    height: 48px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    outline: none;
+}
+.allPostListRow button:focus{
+    outline: none;
+}
+
+/* subscribe section */
+.subscribe{
+    background-size: cover;
+    background-position: center;
+    background: url('https://res.cloudinary.com/dmixz7eur/image/upload/v1611229692/black%20lives/Background_STYLESTYLE3_d6c2vy.jpg');
+    margin: 0px;
+    width: 100%;
+    padding: 0%;
+}
+.subscribe .container{
+    background: linear-gradient(to right, #5E5E5E00, #53535312, #07070792, #000000);
+    width: 100%;
+    max-width: 2500px;
+}
+.subscribe .container .subscribeRow{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.subscribe .container .subscribeRow h1{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.subscribe .container .subscribeRow form{
+    display: block;
+}
+.subscribe .container .subscribeRow form input{
+    width: 260px;
+    height: 48px;
+    background: none;
+    padding: 10px;
+    font-size: 14px;
+    color: #ffffff60;
+    border: 1px solid #ffffff80;
+    margin: 20px;
+    outline: none;
+}
+.subscribe .container .subscribeRow form input::placeholder{
+    color: #ffffff80;
+}
+.subscribe .container .subscribeRow form button{
+    background: #F37121;
+    color: white;
+    font-weight: bold;
+    width: 260px;
+    height: 48px;
+    border-width: 0px;
+    outline: none;
+}
+@media only screen and (max-width: 768px){
+    .subscribe .container .subscribeRow h1{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .subscribe .container .subscribeRow form button{
+        margin-bottom: 30px;
+    }
+}

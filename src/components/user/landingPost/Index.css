@@ -1,0 +1,49 @@
+.postReaction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainPostRow form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mainPostRow input{
+    width: 100%;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 12px;
+    outline: none;
+    background: #ABA7D510;
+    border-width: 0px;
+    border: 1px solid #111D5E20;
+}
+.mainPostRow textarea{
+    width: 100%;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 12px;
+    outline: none;
+    background: #ABA7D510;
+    border-width: 0px;
+    border: 1px solid #111D5E20;
+}
+.mainPostRow button{
+    margin: auto;
+    margin-top: 5px;
+    height: 48px;
+    width: 200px;
+    background: #F37121;
+    border-width: 0px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    outline: none;
+}
+p{
+    cursor: pointer;
+}
+.mainPostRow p:hover{
+    color: #002642;
+}
